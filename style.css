@@ -1,0 +1,55 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: amador, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 2em;
+  animation: colorchange 20s;
+  z-index: 1;
+  height: 100px;
+  overflow: hidden;
+}
+
+    @keyframes colorchange {
+        0% {
+            background: #FFB3B3;
+        }
+        25% {
+            background: #B3FFFF;
+        }
+        50% {
+            background: #E6B3FF;
+        }
+        75% {
+            background: #B3FFB3;
+        }
+        100% {
+            background: #FFB3E1;
+        }
+    }
+
+#container {
+  margin: 0;
+  padding: 0; 
+  background: url("https://cdn.glitch.com/d2a5e9b9-9e16-43f4-94c0-84d20db185c5%2F131a4b75a9d4dbf8dc902b07803c5c95.gif?v=1566862224644");
+  height: 100vh;
+  width: 100vw;
+  z-index: 2;
+}
+
+h1 {
+  font-size: 4em;
+  text-align: center;
+  color: #ffffff;
+  -webkit-text-stroke-width: .1px;
+  -webkit-text-stroke-color: #5cd6d1;
+}
+
+img { 
+  margin-left: 20%;
+  margin-right: 20%;
+  padding: 0;
+  text-align: center;
+  width: 60%;
+}
